@@ -1,6 +1,6 @@
 {
   "name": "cloudflare-dns-updater",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A tool that checks the current public IP address and updates Cloudflare A records.",
   "type": "module",
   "bin": {
