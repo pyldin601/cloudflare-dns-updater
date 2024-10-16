@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A tool that checks the current public IP address and updates Cloudflare A records.",
   "type": "module",
+  "bin": {
+    "cloudflare-dns-updater": "./src/index.mjs"
+  },
   "scripts": {
     "start": "node src/index.mjs",
     "lint": "eslint"
