@@ -1,0 +1,15 @@
+{
+  "name": "cloudflare-dns-updater",
+  "version": "1.0.0",
+  "description": "A tool that checks the current public IP address and updates Cloudflare A records.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "keywords": [],
+  "author": "Roman Lakhtadyr",
+  "license": "MIT",
+  "dependencies": {
+    "docopt": "^0.6.2"
+  }
+}
