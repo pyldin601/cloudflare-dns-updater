@@ -1,9 +1,9 @@
 import { docopt } from 'docopt';
 import { publicIpv4 } from 'public-ip';
 import { ok } from 'node:assert';
-import packageJson from '../package.json' with { type: 'json' };
+import { readFile } from "node:fs/promises";
 
-const { version } = packageJson;
+const { version } = JSON.parse(await readFile(`./package.json`));
 
 const doc = `
 Cloudflare A Record Updater.
