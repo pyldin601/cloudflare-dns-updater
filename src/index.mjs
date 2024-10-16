@@ -5,7 +5,7 @@ import { publicIpv4 } from 'public-ip';
 import { ok } from 'node:assert';
 import { readFile } from "node:fs/promises";
 
-const { version } = JSON.parse(await readFile(`./package.json`));
+const { version } = JSON.parse(await readFile(`${import.meta.dirname}/../package.json`));
 
 const doc = `
 Cloudflare A Record Updater.
