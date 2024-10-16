@@ -10,6 +10,7 @@
   "author": "Roman Lakhtadyr",
   "license": "MIT",
   "dependencies": {
-    "docopt": "^0.6.2"
+    "docopt": "^0.6.2",
+    "public-ip": "^7.0.1"
   }
 }
