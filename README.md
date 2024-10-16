@@ -15,3 +15,11 @@ Options:
   -t <token>          Cloudflare API token for authentication.
   -r <zone>:<record>  Specify the Cloudflare zone and A record to update (can be used multiple times).
 ```
+
+## Examples
+
+Update `@` and `*` records:
+
+```
+cloudflare-dns-updater -t <token> -r example.com:example.com -r example.com:*.example.com
+```
