@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { docopt } from 'docopt';
 import { publicIpv4 } from 'public-ip';
 import { ok } from 'node:assert';
