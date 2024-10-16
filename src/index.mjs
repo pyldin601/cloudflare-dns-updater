@@ -16,10 +16,10 @@ Usage:
   cloudflare-dns-updater --version
 
 Options:
-  -h --help           Show this screen.
-  --version           Show version.
-  -t <token>          Cloudflare API token.
-  -r <zone>:<record>  Cloudflare zone name and A record name to update (can be used multiple times).
+  -h --help           Show this help message.
+  --version           Show the tool's version.
+  -t <token>          Cloudflare API token for authentication.
+  -r <zone>:<record>  Specify the Cloudflare zone and A record to update (can be used multiple times).
 `;
 
 const options = docopt(doc, { version });
