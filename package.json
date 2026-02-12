@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "docopt": "^0.6.2",
-    "public-ip": "^7.0.1"
+    "public-ip": "^8.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.12.0",
